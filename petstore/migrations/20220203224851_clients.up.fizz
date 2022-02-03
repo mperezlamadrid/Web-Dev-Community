@@ -1,0 +1,10 @@
+create_table("clients") {
+  t.Column("id", "uuid", {primary: true})
+  t.Column("first_name", "string", {})
+  t.Column("last_name", "string", {})
+  t.Column("email", "string", {})
+  t.Column("phone", "string", {})
+  t.Column("address", "string", {})
+  t.Column("gender", "string", {})
+  t.Column("age", "integer", {})
+}
